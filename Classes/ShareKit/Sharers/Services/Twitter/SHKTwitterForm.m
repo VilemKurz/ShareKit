@@ -109,7 +109,7 @@
 }
 
 //#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+//#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 - (void)keyboardWillShow:(NSNotification *)notification
 {	
 	CGRect keyboardFrame;
