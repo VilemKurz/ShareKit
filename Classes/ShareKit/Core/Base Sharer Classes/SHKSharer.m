@@ -712,14 +712,15 @@
 
 - (void)sharerAuthDidFinish:(SHKSharer *)sharer success:(BOOL)success
 {
-	if (success) {
+	/*
+    if (success) {
         //this saves info about user such as username for services, which do not store username in keychain e.g. facebook and twitter.
         NSString *userInfoKeyForSharer = [NSString stringWithFormat:@"kSHK%@UserInfo", [sharer title]];
         NSDictionary *savedUserInfo = [[NSUserDefaults standardUserDefaults] objectForKey:userInfoKeyForSharer];
         if ([[sharer class] canGetUserInfo] && !savedUserInfo) {
             [[sharer class] getUserInfo];
         }
-    }
+    }*/
     
     //if there is success we do not need to release, as we are going to share subsequently, and release after share is finished.
     //if there is no success we need to release, as we do not continue sharing.
