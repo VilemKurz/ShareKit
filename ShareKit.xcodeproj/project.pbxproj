@@ -162,6 +162,7 @@
 		7AA2E9F81743E51C00B17434 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA2E9EE1743E51C00B17434 /* SFHFKeychainUtils.m */; };
 		7AA2E9F91743E5B200B17434 /* libPocket SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E4663173E2C2500CCEE80 /* libPocket SDK.a */; };
 		7AA2E9FA1743E5B200B17434 /* libPocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4E465A173E2B2900CCEE80 /* libPocket.a */; };
+		7AA724F5192556540047EFD2 /* libBuffer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 949BCB8C172A993000D706D4 /* libBuffer.a */; };
 		7AA83C42170637CC009C483A /* ENAFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA83C40170637CC009C483A /* ENAFURLConnectionOperation.h */; };
 		7AA83C43170637CC009C483A /* ENAFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA83C41170637CC009C483A /* ENAFURLConnectionOperation.m */; };
 		7AA83C4817063828009C483A /* ENGCOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA83C4417063828009C483A /* ENGCOAuth.h */; };
@@ -419,6 +420,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7AB5342D1552AADD00171BCE;
 			remoteInfo = "Static Library";
+		};
+		7AA724F3192556410047EFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 949BCB84172A993000D706D4;
+			remoteInfo = Buffer;
 		};
 		7AAE8CA716EB964900429C51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1382,6 +1390,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA724F5192556540047EFD2 /* libBuffer.a in Frameworks */,
 				7A70B2ED191C91390070C5FB /* libPinterest.a in Frameworks */,
 				7AB8A5C719250A7D00EC73A2 /* libSDWebImage.a in Frameworks */,
 				4979F30E18DCE9B7000F1733 /* libImgur.a in Frameworks */,
@@ -3525,6 +3534,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7AA724F4192556410047EFD2 /* PBXTargetDependency */,
 				7A70B2EC191C912C0070C5FB /* PBXTargetDependency */,
 				7AB8A5C619250A7100EC73A2 /* PBXTargetDependency */,
 				4979F30D18DCE75B000F1733 /* PBXTargetDependency */,
@@ -4702,6 +4712,11 @@
 			isa = PBXTargetDependency;
 			target = 7AB5342D1552AADD00171BCE /* Static Library */;
 			targetProxy = 7A8C03CC1848CDEF008E4C0A /* PBXContainerItemProxy */;
+		};
+		7AA724F4192556410047EFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 949BCB84172A993000D706D4 /* Buffer */;
+			targetProxy = 7AA724F3192556410047EFD2 /* PBXContainerItemProxy */;
 		};
 		7AAE8CA816EB964900429C51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

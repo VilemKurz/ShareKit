@@ -7,8 +7,10 @@
 //
 
 #import "SHKBuffer.h"
+#import "SHKSharer_protected.h"
 #import "SHKConfiguration.h"
 #import "BufferSDK.h"
+#import "SHKItem.h"
 
 @implementation SHKBuffer
 
